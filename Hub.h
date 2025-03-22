@@ -13,7 +13,7 @@ namespace MiniTable {
 	using namespace System::Diagnostics;
 
 	/// <summary>
-	/// Ñâîäêà äëÿ MyForm
+	/// Ã‘Ã¢Ã®Ã¤ÃªÃ  Ã¤Ã«Ã¿ MyForm
 	/// </summary>
 	public ref class Hub : public System::Windows::Forms::Form
 	{
@@ -22,13 +22,13 @@ namespace MiniTable {
 		{
 			InitializeComponent();
 			//
-			//TODO: äîáàâüòå êîä êîíñòğóêòîğà
+			//TODO: Ã¤Ã®Ã¡Ã Ã¢Ã¼Ã²Ã¥ ÃªÃ®Ã¤ ÃªÃ®Ã­Ã±Ã²Ã°Ã³ÃªÃ²Ã®Ã°Ã 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Îñâîáîäèòü âñå èñïîëüçóåìûå ğåñóğñû.
+		/// ÃÃ±Ã¢Ã®Ã¡Ã®Ã¤Ã¨Ã²Ã¼ Ã¢Ã±Ã¥ Ã¨Ã±Ã¯Ã®Ã«Ã¼Ã§Ã³Ã¥Ã¬Ã»Ã¥ Ã°Ã¥Ã±Ã³Ã°Ã±Ã».
 		/// </summary>
 		~Hub()
 		{
@@ -39,12 +39,12 @@ namespace MiniTable {
 		}
 	private: System::Windows::Forms::MenuStrip^ menuStrip1;
 	protected:
-	private: System::Windows::Forms::ToolStripMenuItem^ ñîçäàòüToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ îòêğûòüToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ ñîõğàíèòüToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ ñàéòToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ ëèöåíçèèToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ âûõîäToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ Ã±Ã®Ã§Ã¤Ã Ã²Ã¼ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ Ã®Ã²ÃªÃ°Ã»Ã²Ã¼ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ Ã±Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ Ã±Ã Ã©Ã²ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ Ã«Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ Ã¢Ã»ÃµÃ®Ã¤ToolStripMenuItem;
 	private: System::Windows::Forms::ListView^ listView1;
 	private: System::Windows::Forms::Button^ button_1;
 	private: System::Windows::Forms::Button^ button_2;
@@ -90,25 +90,25 @@ namespace MiniTable {
 
 	private:
 		/// <summary>
-		/// Îáÿçàòåëüíàÿ ïåğåìåííàÿ êîíñòğóêòîğà.
+		/// ÃÃ¡Ã¿Ã§Ã Ã²Ã¥Ã«Ã¼Ã­Ã Ã¿ Ã¯Ã¥Ã°Ã¥Ã¬Ã¥Ã­Ã­Ã Ã¿ ÃªÃ®Ã­Ã±Ã²Ã°Ã³ÃªÃ²Ã®Ã°Ã .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Òğåáóåìûé ìåòîä äëÿ ïîääåğæêè êîíñòğóêòîğà — íå èçìåíÿéòå 
-		/// ñîäåğæèìîå ıòîãî ìåòîäà ñ ïîìîùüş ğåäàêòîğà êîäà.
+		/// Ã’Ã°Ã¥Ã¡Ã³Ã¥Ã¬Ã»Ã© Ã¬Ã¥Ã²Ã®Ã¤ Ã¤Ã«Ã¿ Ã¯Ã®Ã¤Ã¤Ã¥Ã°Ã¦ÃªÃ¨ ÃªÃ®Ã­Ã±Ã²Ã°Ã³ÃªÃ²Ã®Ã°Ã  â€” Ã­Ã¥ Ã¨Ã§Ã¬Ã¥Ã­Ã¿Ã©Ã²Ã¥ 
+		/// Ã±Ã®Ã¤Ã¥Ã°Ã¦Ã¨Ã¬Ã®Ã¥ Ã½Ã²Ã®Ã£Ã® Ã¬Ã¥Ã²Ã®Ã¤Ã  Ã± Ã¯Ã®Ã¬Ã®Ã¹Ã¼Ã¾ Ã°Ã¥Ã¤Ã ÃªÃ²Ã®Ã°Ã  ÃªÃ®Ã¤Ã .
 		/// </summary>
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Hub::typeid));
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
-			this->ñîçäàòüToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->îòêğûòüToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ñîõğàíèòüToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ñàéòToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ëèöåíçèèToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->âûõîäToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->Ã±Ã®Ã§Ã¤Ã Ã²Ã¼ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->Ã®Ã²ÃªÃ°Ã»Ã²Ã¼ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->Ã±Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->Ã±Ã Ã©Ã²ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->Ã«Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->Ã¢Ã»ÃµÃ®Ã¤ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->listView1 = (gcnew System::Windows::Forms::ListView());
 			this->button_1 = (gcnew System::Windows::Forms::Button());
 			this->button_2 = (gcnew System::Windows::Forms::Button());
@@ -140,9 +140,9 @@ namespace MiniTable {
 			this->menuStrip1->GripMargin = System::Windows::Forms::Padding(2, 2, 0, 2);
 			this->menuStrip1->ImageScalingSize = System::Drawing::Size(24, 24);
 			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(6) {
-				this->ñîçäàòüToolStripMenuItem,
-					this->îòêğûòüToolStripMenuItem, this->ñîõğàíèòüToolStripMenuItem, this->ñàéòToolStripMenuItem, this->ëèöåíçèèToolStripMenuItem,
-					this->âûõîäToolStripMenuItem
+				this->Ã±Ã®Ã§Ã¤Ã Ã²Ã¼ToolStripMenuItem,
+					this->Ã®Ã²ÃªÃ°Ã»Ã²Ã¼ToolStripMenuItem, this->Ã±Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼ToolStripMenuItem, this->Ã±Ã Ã©Ã²ToolStripMenuItem, this->Ã«Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨ToolStripMenuItem,
+					this->Ã¢Ã»ÃµÃ®Ã¤ToolStripMenuItem
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
@@ -150,50 +150,50 @@ namespace MiniTable {
 			this->menuStrip1->TabIndex = 0;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
-			// ñîçäàòüToolStripMenuItem
+			// Ã±Ã®Ã§Ã¤Ã Ã²Ã¼ToolStripMenuItem
 			// 
-			this->ñîçäàòüToolStripMenuItem->ForeColor = System::Drawing::Color::White;
-			this->ñîçäàòüToolStripMenuItem->Name = L"ñîçäàòüToolStripMenuItem";
-			this->ñîçäàòüToolStripMenuItem->Size = System::Drawing::Size(93, 29);
-			this->ñîçäàòüToolStripMenuItem->Text = L"Ñîçäàòü";
+			this->Ã±Ã®Ã§Ã¤Ã Ã²Ã¼ToolStripMenuItem->ForeColor = System::Drawing::Color::White;
+			this->Ã±Ã®Ã§Ã¤Ã Ã²Ã¼ToolStripMenuItem->Name = L"Ã±Ã®Ã§Ã¤Ã Ã²Ã¼ToolStripMenuItem";
+			this->Ã±Ã®Ã§Ã¤Ã Ã²Ã¼ToolStripMenuItem->Size = System::Drawing::Size(93, 29);
+			this->Ã±Ã®Ã§Ã¤Ã Ã²Ã¼ToolStripMenuItem->Text = L"Ã‘Ã®Ã§Ã¤Ã Ã²Ã¼";
 			// 
-			// îòêğûòüToolStripMenuItem
+			// Ã®Ã²ÃªÃ°Ã»Ã²Ã¼ToolStripMenuItem
 			// 
-			this->îòêğûòüToolStripMenuItem->ForeColor = System::Drawing::Color::White;
-			this->îòêğûòüToolStripMenuItem->Name = L"îòêğûòüToolStripMenuItem";
-			this->îòêğûòüToolStripMenuItem->Size = System::Drawing::Size(98, 29);
-			this->îòêğûòüToolStripMenuItem->Text = L"Îòêğûòü";
+			this->Ã®Ã²ÃªÃ°Ã»Ã²Ã¼ToolStripMenuItem->ForeColor = System::Drawing::Color::White;
+			this->Ã®Ã²ÃªÃ°Ã»Ã²Ã¼ToolStripMenuItem->Name = L"Ã®Ã²ÃªÃ°Ã»Ã²Ã¼ToolStripMenuItem";
+			this->Ã®Ã²ÃªÃ°Ã»Ã²Ã¼ToolStripMenuItem->Size = System::Drawing::Size(98, 29);
+			this->Ã®Ã²ÃªÃ°Ã»Ã²Ã¼ToolStripMenuItem->Text = L"ÃÃ²ÃªÃ°Ã»Ã²Ã¼";
 			// 
-			// ñîõğàíèòüToolStripMenuItem
+			// Ã±Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼ToolStripMenuItem
 			// 
-			this->ñîõğàíèòüToolStripMenuItem->ForeColor = System::Drawing::Color::White;
-			this->ñîõğàíèòüToolStripMenuItem->Name = L"ñîõğàíèòüToolStripMenuItem";
-			this->ñîõğàíèòüToolStripMenuItem->Size = System::Drawing::Size(114, 29);
-			this->ñîõğàíèòüToolStripMenuItem->Text = L"Ñîõğàíèòü";
+			this->Ã±Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼ToolStripMenuItem->ForeColor = System::Drawing::Color::White;
+			this->Ã±Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼ToolStripMenuItem->Name = L"Ã±Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼ToolStripMenuItem";
+			this->Ã±Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼ToolStripMenuItem->Size = System::Drawing::Size(114, 29);
+			this->Ã±Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼ToolStripMenuItem->Text = L"Ã‘Ã®ÃµÃ°Ã Ã­Ã¨Ã²Ã¼";
 			// 
-			// ñàéòToolStripMenuItem
+			// Ã±Ã Ã©Ã²ToolStripMenuItem
 			// 
-			this->ñàéòToolStripMenuItem->ForeColor = System::Drawing::Color::White;
-			this->ñàéòToolStripMenuItem->Name = L"ñàéòToolStripMenuItem";
-			this->ñàéòToolStripMenuItem->Size = System::Drawing::Size(65, 29);
-			this->ñàéòToolStripMenuItem->Text = L"Ñàéò";
-			this->ñàéòToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::ñàéòToolStripMenuItem_Click);
+			this->Ã±Ã Ã©Ã²ToolStripMenuItem->ForeColor = System::Drawing::Color::White;
+			this->Ã±Ã Ã©Ã²ToolStripMenuItem->Name = L"Ã±Ã Ã©Ã²ToolStripMenuItem";
+			this->Ã±Ã Ã©Ã²ToolStripMenuItem->Size = System::Drawing::Size(65, 29);
+			this->Ã±Ã Ã©Ã²ToolStripMenuItem->Text = L"Ã‘Ã Ã©Ã²";
+			this->Ã±Ã Ã©Ã²ToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::Ã±Ã Ã©Ã²ToolStripMenuItem_Click);
 			// 
-			// ëèöåíçèèToolStripMenuItem
+			// Ã«Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨ToolStripMenuItem
 			// 
-			this->ëèöåíçèèToolStripMenuItem->ForeColor = System::Drawing::Color::White;
-			this->ëèöåíçèèToolStripMenuItem->Name = L"ëèöåíçèèToolStripMenuItem";
-			this->ëèöåíçèèToolStripMenuItem->Size = System::Drawing::Size(108, 29);
-			this->ëèöåíçèèToolStripMenuItem->Text = L"Ëèöåíçèè";
-			this->ëèöåíçèèToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::ëèöåíçèèToolStripMenuItem_Click);
+			this->Ã«Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨ToolStripMenuItem->ForeColor = System::Drawing::Color::White;
+			this->Ã«Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨ToolStripMenuItem->Name = L"Ã«Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨ToolStripMenuItem";
+			this->Ã«Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨ToolStripMenuItem->Size = System::Drawing::Size(108, 29);
+			this->Ã«Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨ToolStripMenuItem->Text = L"Ã‹Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨";
+			this->Ã«Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨ToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::Ã«Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨ToolStripMenuItem_Click);
 			// 
-			// âûõîäToolStripMenuItem
+			// Ã¢Ã»ÃµÃ®Ã¤ToolStripMenuItem
 			// 
-			this->âûõîäToolStripMenuItem->ForeColor = System::Drawing::Color::White;
-			this->âûõîäToolStripMenuItem->Name = L"âûõîäToolStripMenuItem";
-			this->âûõîäToolStripMenuItem->Size = System::Drawing::Size(80, 29);
-			this->âûõîäToolStripMenuItem->Text = L"Âûõîä";
-			this->âûõîäToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::âûõîäToolStripMenuItem_Click);
+			this->Ã¢Ã»ÃµÃ®Ã¤ToolStripMenuItem->ForeColor = System::Drawing::Color::White;
+			this->Ã¢Ã»ÃµÃ®Ã¤ToolStripMenuItem->Name = L"Ã¢Ã»ÃµÃ®Ã¤ToolStripMenuItem";
+			this->Ã¢Ã»ÃµÃ®Ã¤ToolStripMenuItem->Size = System::Drawing::Size(80, 29);
+			this->Ã¢Ã»ÃµÃ®Ã¤ToolStripMenuItem->Text = L"Ã‚Ã»ÃµÃ®Ã¤";
+			this->Ã¢Ã»ÃµÃ®Ã¤ToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::Ã¢Ã»ÃµÃ®Ã¤ToolStripMenuItem_Click);
 			// 
 			// listView1
 			// 
@@ -553,11 +553,11 @@ namespace MiniTable {
 
 		}
 #pragma endregion
-	private: System::Void âûõîäToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void Ã¢Ã»ÃµÃ®Ã¤ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 		Close();
 	}
-	private: System::Void ëèöåíçèèToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-		MessageBox::Show(this, "C++, DrMartyzan.\nMiniTable 2025 ©.", "Ëèöåíçèÿ", MessageBoxButtons::OK, MessageBoxIcon::Information);
+	private: System::Void Ã«Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¨ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		MessageBox::Show(this, "C++, DrMartyzan.\nMiniTable 2025 Â©.", "Ã‹Ã¨Ã¶Ã¥Ã­Ã§Ã¨Ã¿", MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 
 	private: System::Void Button_Num_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -610,7 +610,7 @@ namespace MiniTable {
 			if (Second_Num == 0) {
 				Result = 0;
 				this->Calc_Num->ForeColor = Color::Red;
-				MessageBox::Show(this, "Äåëåíèÿ íà íîëü - çàïğåùåíû!", "Îøèáêà", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				MessageBox::Show(this, "Ã„Ã¥Ã«Ã¥Ã­Ã¨Ã¿ Ã­Ã  Ã­Ã®Ã«Ã¼ - Ã§Ã Ã¯Ã°Ã¥Ã¹Ã¥Ã­Ã»!", "ÃÃ¸Ã¨Ã¡ÃªÃ ", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			}
 
@@ -650,8 +650,8 @@ namespace MiniTable {
 			this->Calc_Num->Text = text + ",";
 	}
 		   
-	private: System::Void ñàéòToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-		Process::Start("https://github.com/DrMartyzan/MiniTable/releases/tag/MiniTable");
+	private: System::Void Ã±Ã Ã©Ã²ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		Process::Start("https://github.com/DrMartyzan/MiniTable");
 	}
 };
 }
