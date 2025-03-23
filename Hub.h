@@ -13,7 +13,7 @@ namespace MiniTable {
 	using namespace System::Diagnostics;
 
 	/// <summary>
-	/// Ñâîäêà äëÿ MyForm
+	/// Сводка для MyForm
 	/// </summary>
 	public ref class Hub : public System::Windows::Forms::Form
 	{
@@ -22,13 +22,13 @@ namespace MiniTable {
 		{
 			InitializeComponent();
 			//
-			//TODO: äîáàâüòå êîä êîíñòðóêòîðà
+			//TODO: добавьте код конструктора
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Îñâîáîäèòü âñå èñïîëüçóåìûå ðåñóðñû.
+		/// Освободить все используемые ресурсы.
 		/// </summary>
 		~Hub()
 		{
@@ -39,12 +39,12 @@ namespace MiniTable {
 		}
 	private: System::Windows::Forms::MenuStrip^ menuStrip1;
 	protected:
-	private: System::Windows::Forms::ToolStripMenuItem^ ñîçäàòüToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ îòêðûòüToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ ñîõðàíèòüToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ ñàéòToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ ëèöåíçèèToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^ âûõîäToolStripMenuItem;
+
+
+
+
+
+	private: System::Windows::Forms::ToolStripMenuItem^ выходToolStripMenuItem;
 	private: System::Windows::Forms::ListView^ listView1;
 	private: System::Windows::Forms::Button^ button_1;
 	private: System::Windows::Forms::Button^ button_2;
@@ -83,6 +83,26 @@ namespace MiniTable {
 	private: float First_Num;
 	private: char User_Act = ' ';
 	private: bool Is_Equal = false;
+	private: System::Windows::Forms::ToolStripMenuItem^ файлToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ создатьToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ открытьToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ добавитьToolStripMenuItem1;
+	private: System::Windows::Forms::ToolStripMenuItem^ скрытьToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ калькуляторToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ сайтПроектаToolStripMenuItem;
+
+	private: System::Windows::Forms::ToolStripMenuItem^ строкуToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ линиюToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ оПрограммеToolStripMenuItem1;
+	private: System::Windows::Forms::ToolStripMenuItem^ оПрограммеToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ справкаToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ сайтToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ сайтПроектаToolStripMenuItem1;
+	private: System::Windows::Forms::ToolStripMenuItem^ видToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ калькуляторToolStripMenuItem1;
+
+
+
 
 
 
@@ -90,25 +110,35 @@ namespace MiniTable {
 
 	private:
 		/// <summary>
-		/// Îáÿçàòåëüíàÿ ïåðåìåííàÿ êîíñòðóêòîðà.
+		/// Обязательная переменная конструктора.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Òðåáóåìûé ìåòîä äëÿ ïîääåðæêè êîíñòðóêòîðà — íå èçìåíÿéòå 
-		/// ñîäåðæèìîå ýòîãî ìåòîäà ñ ïîìîùüþ ðåäàêòîðà êîäà.
+		/// Требуемый метод для поддержки конструктора — не изменяйте 
+		/// содержимое этого метода с помощью редактора кода.
 		/// </summary>
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Hub::typeid));
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
-			this->ñîçäàòüToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->îòêðûòüToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ñîõðàíèòüToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ñàéòToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ëèöåíçèèToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->âûõîäToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->файлToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->создатьToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->открытьToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->добавитьToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->строкуToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->линиюToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->скрытьToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->калькуляторToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->видToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->калькуляторToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->оПрограммеToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->справкаToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->сайтToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->сайтПроектаToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->выходToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->сайтПроектаToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->listView1 = (gcnew System::Windows::Forms::ListView());
 			this->button_1 = (gcnew System::Windows::Forms::Button());
 			this->button_2 = (gcnew System::Windows::Forms::Button());
@@ -130,6 +160,7 @@ namespace MiniTable {
 			this->button_minus_or_plus = (gcnew System::Windows::Forms::Button());
 			this->button_proc = (gcnew System::Windows::Forms::Button());
 			this->button_equal = (gcnew System::Windows::Forms::Button());
+			this->оПрограммеToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->menuStrip1->SuspendLayout();
 			this->SuspendLayout();
 			// 
@@ -140,9 +171,8 @@ namespace MiniTable {
 			this->menuStrip1->GripMargin = System::Windows::Forms::Padding(2, 2, 0, 2);
 			this->menuStrip1->ImageScalingSize = System::Drawing::Size(24, 24);
 			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(6) {
-				this->ñîçäàòüToolStripMenuItem,
-					this->îòêðûòüToolStripMenuItem, this->ñîõðàíèòüToolStripMenuItem, this->ñàéòToolStripMenuItem, this->ëèöåíçèèToolStripMenuItem,
-					this->âûõîäToolStripMenuItem
+				this->файлToolStripMenuItem,
+					this->скрытьToolStripMenuItem, this->видToolStripMenuItem, this->оПрограммеToolStripMenuItem, this->сайтToolStripMenuItem, this->выходToolStripMenuItem
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
@@ -150,50 +180,125 @@ namespace MiniTable {
 			this->menuStrip1->TabIndex = 0;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
-			// ñîçäàòüToolStripMenuItem
+			// файлToolStripMenuItem
 			// 
-			this->ñîçäàòüToolStripMenuItem->ForeColor = System::Drawing::Color::White;
-			this->ñîçäàòüToolStripMenuItem->Name = L"ñîçäàòüToolStripMenuItem";
-			this->ñîçäàòüToolStripMenuItem->Size = System::Drawing::Size(93, 29);
-			this->ñîçäàòüToolStripMenuItem->Text = L"Ñîçäàòü";
+			this->файлToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
+				this->создатьToolStripMenuItem,
+					this->открытьToolStripMenuItem, this->добавитьToolStripMenuItem1
+			});
+			this->файлToolStripMenuItem->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->файлToolStripMenuItem->Name = L"файлToolStripMenuItem";
+			this->файлToolStripMenuItem->Size = System::Drawing::Size(69, 29);
+			this->файлToolStripMenuItem->Text = L"Файл";
 			// 
-			// îòêðûòüToolStripMenuItem
+			// создатьToolStripMenuItem
 			// 
-			this->îòêðûòüToolStripMenuItem->ForeColor = System::Drawing::Color::White;
-			this->îòêðûòüToolStripMenuItem->Name = L"îòêðûòüToolStripMenuItem";
-			this->îòêðûòüToolStripMenuItem->Size = System::Drawing::Size(98, 29);
-			this->îòêðûòüToolStripMenuItem->Text = L"Îòêðûòü";
+			this->создатьToolStripMenuItem->Name = L"создатьToolStripMenuItem";
+			this->создатьToolStripMenuItem->Size = System::Drawing::Size(192, 34);
+			this->создатьToolStripMenuItem->Text = L"Создать";
+			this->создатьToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::создатьToolStripMenuItem_Click_1);
 			// 
-			// ñîõðàíèòüToolStripMenuItem
+			// открытьToolStripMenuItem
 			// 
-			this->ñîõðàíèòüToolStripMenuItem->ForeColor = System::Drawing::Color::White;
-			this->ñîõðàíèòüToolStripMenuItem->Name = L"ñîõðàíèòüToolStripMenuItem";
-			this->ñîõðàíèòüToolStripMenuItem->Size = System::Drawing::Size(114, 29);
-			this->ñîõðàíèòüToolStripMenuItem->Text = L"Ñîõðàíèòü";
+			this->открытьToolStripMenuItem->Name = L"открытьToolStripMenuItem";
+			this->открытьToolStripMenuItem->Size = System::Drawing::Size(192, 34);
+			this->открытьToolStripMenuItem->Text = L"Открыть";
+			this->открытьToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::открытьToolStripMenuItem_Click);
 			// 
-			// ñàéòToolStripMenuItem
+			// добавитьToolStripMenuItem1
 			// 
-			this->ñàéòToolStripMenuItem->ForeColor = System::Drawing::Color::White;
-			this->ñàéòToolStripMenuItem->Name = L"ñàéòToolStripMenuItem";
-			this->ñàéòToolStripMenuItem->Size = System::Drawing::Size(65, 29);
-			this->ñàéòToolStripMenuItem->Text = L"Ñàéò";
-			this->ñàéòToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::ñàéòToolStripMenuItem_Click);
+			this->добавитьToolStripMenuItem1->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(2) {
+				this->строкуToolStripMenuItem,
+					this->линиюToolStripMenuItem
+			});
+			this->добавитьToolStripMenuItem1->Name = L"добавитьToolStripMenuItem1";
+			this->добавитьToolStripMenuItem1->Size = System::Drawing::Size(192, 34);
+			this->добавитьToolStripMenuItem1->Text = L"Добавить";
 			// 
-			// ëèöåíçèèToolStripMenuItem
+			// строкуToolStripMenuItem
 			// 
-			this->ëèöåíçèèToolStripMenuItem->ForeColor = System::Drawing::Color::White;
-			this->ëèöåíçèèToolStripMenuItem->Name = L"ëèöåíçèèToolStripMenuItem";
-			this->ëèöåíçèèToolStripMenuItem->Size = System::Drawing::Size(108, 29);
-			this->ëèöåíçèèToolStripMenuItem->Text = L"Ëèöåíçèè";
-			this->ëèöåíçèèToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::ëèöåíçèèToolStripMenuItem_Click);
+			this->строкуToolStripMenuItem->Name = L"строкуToolStripMenuItem";
+			this->строкуToolStripMenuItem->Size = System::Drawing::Size(172, 34);
+			this->строкуToolStripMenuItem->Text = L"Строку";
 			// 
-			// âûõîäToolStripMenuItem
+			// линиюToolStripMenuItem
 			// 
-			this->âûõîäToolStripMenuItem->ForeColor = System::Drawing::Color::White;
-			this->âûõîäToolStripMenuItem->Name = L"âûõîäToolStripMenuItem";
-			this->âûõîäToolStripMenuItem->Size = System::Drawing::Size(80, 29);
-			this->âûõîäToolStripMenuItem->Text = L"Âûõîä";
-			this->âûõîäToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::âûõîäToolStripMenuItem_Click);
+			this->линиюToolStripMenuItem->Name = L"линиюToolStripMenuItem";
+			this->линиюToolStripMenuItem->Size = System::Drawing::Size(172, 34);
+			this->линиюToolStripMenuItem->Text = L"Линию";
+			// 
+			// скрытьToolStripMenuItem
+			// 
+			this->скрытьToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->калькуляторToolStripMenuItem });
+			this->скрытьToolStripMenuItem->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->скрытьToolStripMenuItem->Name = L"скрытьToolStripMenuItem";
+			this->скрытьToolStripMenuItem->Size = System::Drawing::Size(88, 29);
+			this->скрытьToolStripMenuItem->Text = L"Скрыть";
+			// 
+			// калькуляторToolStripMenuItem
+			// 
+			this->калькуляторToolStripMenuItem->Name = L"калькуляторToolStripMenuItem";
+			this->калькуляторToolStripMenuItem->Size = System::Drawing::Size(216, 34);
+			this->калькуляторToolStripMenuItem->Text = L"Калькулятор";
+			this->калькуляторToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::калькуляторToolStripMenuItem_Click);
+			// 
+			// видToolStripMenuItem
+			// 
+			this->видToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->калькуляторToolStripMenuItem1 });
+			this->видToolStripMenuItem->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->видToolStripMenuItem->Name = L"видToolStripMenuItem";
+			this->видToolStripMenuItem->Size = System::Drawing::Size(58, 29);
+			this->видToolStripMenuItem->Text = L"Вид";
+			// 
+			// калькуляторToolStripMenuItem1
+			// 
+			this->калькуляторToolStripMenuItem1->Name = L"калькуляторToolStripMenuItem1";
+			this->калькуляторToolStripMenuItem1->Size = System::Drawing::Size(270, 34);
+			this->калькуляторToolStripMenuItem1->Text = L"Калькулятор";
+			this->калькуляторToolStripMenuItem1->Click += gcnew System::EventHandler(this, &Hub::калькуляторToolStripMenuItem1_Click);
+			// 
+			// оПрограммеToolStripMenuItem
+			// 
+			this->оПрограммеToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->справкаToolStripMenuItem });
+			this->оПрограммеToolStripMenuItem->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->оПрограммеToolStripMenuItem->Name = L"оПрограммеToolStripMenuItem";
+			this->оПрограммеToolStripMenuItem->Size = System::Drawing::Size(141, 29);
+			this->оПрограммеToolStripMenuItem->Text = L"О программе";
+			// 
+			// справкаToolStripMenuItem
+			// 
+			this->справкаToolStripMenuItem->Name = L"справкаToolStripMenuItem";
+			this->справкаToolStripMenuItem->Size = System::Drawing::Size(270, 34);
+			this->справкаToolStripMenuItem->Text = L"Справка";
+			this->справкаToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::справкаToolStripMenuItem_Click);
+			// 
+			// сайтToolStripMenuItem
+			// 
+			this->сайтToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->сайтПроектаToolStripMenuItem1 });
+			this->сайтToolStripMenuItem->ForeColor = System::Drawing::SystemColors::ButtonFace;
+			this->сайтToolStripMenuItem->Name = L"сайтToolStripMenuItem";
+			this->сайтToolStripMenuItem->Size = System::Drawing::Size(65, 29);
+			this->сайтToolStripMenuItem->Text = L"Сайт";
+			// 
+			// сайтПроектаToolStripMenuItem1
+			// 
+			this->сайтПроектаToolStripMenuItem1->Name = L"сайтПроектаToolStripMenuItem1";
+			this->сайтПроектаToolStripMenuItem1->Size = System::Drawing::Size(222, 34);
+			this->сайтПроектаToolStripMenuItem1->Text = L"Сайт проекта";
+			this->сайтПроектаToolStripMenuItem1->Click += gcnew System::EventHandler(this, &Hub::сайтПроектаToolStripMenuItem1_Click);
+			// 
+			// выходToolStripMenuItem
+			// 
+			this->выходToolStripMenuItem->ForeColor = System::Drawing::Color::White;
+			this->выходToolStripMenuItem->Name = L"выходToolStripMenuItem";
+			this->выходToolStripMenuItem->Size = System::Drawing::Size(80, 29);
+			this->выходToolStripMenuItem->Text = L"Выход";
+			this->выходToolStripMenuItem->Click += gcnew System::EventHandler(this, &Hub::выходToolStripMenuItem_Click);
+			// 
+			// сайтПроектаToolStripMenuItem
+			// 
+			this->сайтПроектаToolStripMenuItem->Name = L"сайтПроектаToolStripMenuItem";
+			this->сайтПроектаToolStripMenuItem->Size = System::Drawing::Size(32, 19);
 			// 
 			// listView1
 			// 
@@ -510,7 +615,13 @@ namespace MiniTable {
 			this->button_equal->UseVisualStyleBackColor = false;
 			this->button_equal->Click += gcnew System::EventHandler(this, &Hub::button_equal_Click);
 			// 
-			// MyForm
+			// оПрограммеToolStripMenuItem1
+			// 
+			this->оПрограммеToolStripMenuItem1->Name = L"оПрограммеToolStripMenuItem1";
+			this->оПрограммеToolStripMenuItem1->Size = System::Drawing::Size(270, 34);
+			this->оПрограммеToolStripMenuItem1->Text = L"О программе";
+			// 
+			// Hub
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
@@ -539,12 +650,13 @@ namespace MiniTable {
 			this->Controls->Add(this->button_1);
 			this->Controls->Add(this->listView1);
 			this->Controls->Add(this->menuStrip1);
+			this->ForeColor = System::Drawing::Color::White;
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->MainMenuStrip = this->menuStrip1;
-			this->Name = L"MyForm";
+			this->Name = L"Hub";
 			this->RightToLeftLayout = true;
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"MiniTable";
+			this->Text = L"MiniTable - Table";
 			this->Click += gcnew System::EventHandler(this, &Hub::Button_Num_Click);
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
@@ -552,13 +664,12 @@ namespace MiniTable {
 			this->PerformLayout();
 
 		}
+		
 #pragma endregion
-	private: System::Void âûõîäToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void выходToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 		Close();
 	}
-	private: System::Void ëèöåíçèèToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
-		MessageBox::Show(this, "C++, DrMartyzan.\nMiniTable 2025 ©.", "Ëèöåíçèÿ", MessageBoxButtons::OK, MessageBoxIcon::Information);
-	}
+	
 
 	private: System::Void Button_Num_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Calc_Num->ForeColor = Color::White;
@@ -610,7 +721,7 @@ namespace MiniTable {
 			if (Second_Num == 0) {
 				Result = 0;
 				this->Calc_Num->ForeColor = Color::Red;
-				MessageBox::Show(this, "Äåëåíèÿ íà íîëü - çàïðåùåíû!", "Îøèáêà", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				MessageBox::Show(this, "Деления на ноль - запрещены!", "Ошибка", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				break;
 			}
 
@@ -649,9 +760,72 @@ namespace MiniTable {
 		if (!text->Contains(","))
 			this->Calc_Num->Text = text + ",";
 	}
-		   
-	private: System::Void ñàéòToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+
+	private: System::Void создатьToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		Process::Start("Explorer.exe");
+	}
+
+	private: System::Void создатьToolStripMenuItem_Click_1(System::Object^ sender, System::EventArgs^ e) {
+		Process::Start("Explorer.exe");
+	}
+	private: System::Void открытьToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		Process::Start("Explorer.exe");
+	}
+
+	private: System::Void сайтПроектаToolStripMenuItem1_Click(System::Object^ sender, System::EventArgs^ e) {
 		Process::Start("https://github.com/DrMartyzan/MiniTable");
+	}
+
+	private: System::Void калькуляторToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->button_0->Hide();
+		this->button_1->Hide();
+		this->button_2->Hide();
+		this->button_3->Hide();
+		this->button_4->Hide();
+		this->button_5->Hide();
+		this->button_->Hide();
+		this->button_7->Hide();
+		this->button_8->Hide();
+		this->button_9->Hide();
+		this->button_minus->Hide();
+		this->button_plus->Hide();
+		this->button_devide->Hide();
+		this->button_times->Hide();
+		this->button_AC->Hide();
+		this->button_proc->Hide();
+		this->button_point->Hide();
+		this->button_equal->Hide();
+		this->button_minus_or_plus->Hide();
+		this->listView1->Hide();
+		this->Calc_Num->Hide();
+	}
+
+	private: System::Void калькуляторToolStripMenuItem1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->button_0->Show();
+		this->button_1->Show();
+		this->button_2->Show();
+		this->button_3->Show();
+		this->button_4->Show();
+		this->button_5->Show();
+		this->button_->Show();
+		this->button_7->Show();
+		this->button_8->Show();
+		this->button_9->Show();
+		this->button_minus->Show();
+		this->button_plus->Show();
+		this->button_devide->Show();
+		this->button_times->Show();
+		this->button_AC->Show();
+		this->button_proc->Show();
+		this->button_point->Show();
+		this->button_equal->Show();
+		this->button_minus_or_plus->Show();
+		this->listView1->Show();
+		this->Calc_Num->Show();
+	}
+
+	private: System::Void справкаToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+		MessageBox::Show(this, "C++, Windows Forms.\nDrMartyzan MiniTable 2025©", "О программе", MessageBoxButtons::OK, MessageBoxIcon::Information);
 	}
 };
 }
